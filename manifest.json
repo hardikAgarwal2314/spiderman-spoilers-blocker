@@ -17,6 +17,9 @@
   "permissions": [
     "activeTab"
   ],
+  "host_permissions": [
+    "https://www.youtube.com/"
+  ],
   "background": {
     "scripts": ["js/startup.js"],
     "persistent": false
