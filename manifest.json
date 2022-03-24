@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+
+  "name": "Spider-man Spoiler Blocker",
+  "description": "This extension blocks all mentions of Spider-man characters and plotlines",
+  "version": "0.1",
+  "author": "Hardik Agarwal",
+
+  "browser_action": {
+    "default_icon": {
+      "19" : "images/spiderman.png",
+      "38" : "images/spiderman.png",
+      "48" : "images/spiderman.png",
+      "128" : "images/spiderman.png"
+    }
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["js/startup.js"],
+    "persistent": false
+  }
+}
